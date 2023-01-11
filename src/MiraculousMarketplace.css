@@ -1,7 +1,8 @@
 .dev-tool-marketplace {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 16px;
+  flex-wrap: wrap;
 }
 
 .marketplace-header {
@@ -61,12 +62,13 @@
 }
 
 .dev-tool-square {
-  width: 20vw;
-  height: 20vw;
+  width: 30vw;
+  height: 30vw;
   margin: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
   display: flex;
+  flex-basis: 30%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -99,3 +101,9 @@
 .dev-tool-square a:hover {
   text-decoration: underline;
 }
+
+.dev-tool-square p {
+  font-size: 1.0em;
+  padding: 0 30px;
+}
+

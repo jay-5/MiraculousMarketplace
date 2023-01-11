@@ -8,7 +8,11 @@ function DevToolSquare(props) {
       <img src={logo} alt={name} className="dev-tool-logo" />
       <h3>{name}</h3>
       <p>{description}</p>
-      <p>Operates on: {chains.join(', ')}</p>
+      <div style={{height: "20px"}} />
+      <p>
+      <strong>Operates on:</strong> <span>{chains.join(', ')}</span>
+        </p>
+      <div style={{height: "20px"}} />
       <a href={site} target="_blank">Learn more</a>
     </div>
   );
