@@ -46,16 +46,18 @@ function MiraculousMarketplace() {
   const chainOptions = ['All', ...new Set(devTools.flatMap(devTool => devTool.chains))];
 
   const handleChainChange = event => {
-    setSelectedChain(event.target.value);
+    setSelectedChain(event.target.value === 'All' ? '' : event.target.value);
   };
 
   const handleSearch = event => {
     setSearchQuery(event.target.value);
   };
 
-  const filteredDevTools = selectedChain === 'All'
-    ? devTools
-    : devTools.filter(devTool => devTool.chains.includes(selectedChain));
+  const filteredDevTools = selectedChain === ''
+  ? devTools.filter(devTool => devTool.name.toLowerCase().includes(searchQuery.toLowerCase()))
+  : devTools.filter(devTool => devTool.chains.includes(selectedChain))
+  .filter(devTool => devTool.name.toLowerCase().includes(searchQuery.toLowerCase()));
+
     return (
       <div>
       <header className="marketplace-header">
