@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MiraculousMarketplace/static/css/main.15493c62.css",
+    "main.js": "/MiraculousMarketplace/static/js/main.2663d1a6.js",
+    "static/js/787.3c302528.chunk.js": "/MiraculousMarketplace/static/js/787.3c302528.chunk.js",
+    "index.html": "/MiraculousMarketplace/index.html",
+    "main.15493c62.css.map": "/MiraculousMarketplace/static/css/main.15493c62.css.map",
+    "main.2663d1a6.js.map": "/MiraculousMarketplace/static/js/main.2663d1a6.js.map",
+    "787.3c302528.chunk.js.map": "/MiraculousMarketplace/static/js/787.3c302528.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15493c62.css",
+    "static/js/main.2663d1a6.js"
+  ]
+}
