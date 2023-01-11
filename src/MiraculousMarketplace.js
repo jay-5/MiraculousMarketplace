@@ -22,7 +22,7 @@ function MiraculousMarketplace() {
       description: "The Graph is a decentralized protocol for indexing and querying data from blockchains, starting with Ethereum. It makes it possible to query data that is difficult to query directly.",
       chains: ['Ethereum'],
       site: 'https://thegraph.com/en/',
-      affiliateLink: 'https://thegraph.com/en/affiliate_id=12345'
+      affiliateLink: 'https://thegraph.com/en/'
     },
     {
       name: 'Hardhat',
@@ -30,15 +30,32 @@ function MiraculousMarketplace() {
       description: "Hardhat is a development environment for Ethereum software. It consists of different components for editing, compiling, debugging and deploying your smart contracts and dApps, all of which work together to create a complete development environment.",
       chains: ['Ethereum'],
       site: 'https://hardhat.org/',
-      affiliateLink: 'https://hardhat.org/?affiliate_id=12345'
+      affiliateLink: 'https://hardhat.org/'
+      //affiliateLink: 'https://hardhat.org/?affiliate_id=12345'
     },
     {
-      name: 'Dev Tool 3',
-      logo: '/path/to/devtool3-logo.png',
-      description: 'A cutting-edge dev tool for building decentralized applications',
-      chains: ['Ethereum', 'Tron'],
-      site: 'https://devtool3.com',
-      affiliateLink: 'https://devtool3.com?affiliate_id=12345'
+      name: 'Foundry',
+      logo: 'https://assets-global.website-files.com/6364e65656ab107e465325d2/637aed6751438b58df4f23db_vsOHSnFCWFd7F4FKD3WyqVs5OL1bbnm-OYI7HxjENC8.png',
+      description: "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
+      chains: ['Ethereum'],
+      site: 'https://book.getfoundry.sh/',
+      affiliateLink: 'https://book.getfoundry.sh/'
+    },
+    {
+      name: 'Metaplex',
+      logo: 'https://assets-global.website-files.com/6364e65656ab107e465325d2/637adda0d2b2d941b7a9f500__5Y53zl95FzMsbYKFKWCvhNMajRQW9PqTEUfPGdd79w.jpeg',
+      description: "Metaplex is a platform for NFT creators and developers on Solana. With over 22 million NFTs minted and over $3.6 billion in commerce, the top creators and game studios use Metaplex to create, grow, and engage their communities.",
+      chains: ['Solana'],
+      site: 'https://www.metaplex.com/',
+      affiliateLink: 'https://www.metaplex.com/'
+    },
+    {
+      name: 'Moralis',
+      logo: 'https://assets-global.website-files.com/6364e65656ab107e465325d2/637b68b19fa9435d888c9cf0_aY-cSH39nYSEEvIN-9hCed-2B5ISs9a4epw2oiGlKMI.jpeg',
+      description: "Build faster and smarter with APIs that bridge the development gap between Web2 and Web3.",
+      chains: ['Ethereum', 'Arbitrum', 'Solana', 'Avalanche', 'Polygon'],
+      site: 'https://moralis.io/',
+      affiliateLink: 'https://moralis.io/'
     },
   ]);
   const [selectedChain, setSelectedChain] = useState('');
