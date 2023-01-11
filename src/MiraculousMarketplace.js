@@ -25,12 +25,12 @@ function MiraculousMarketplace() {
       affiliateLink: 'https://thegraph.com/en/affiliate_id=12345'
     },
     {
-      name: 'Dev Tool 2',
-      logo: '/path/to/devtool2-logo.png',
-      description: 'An easy-to-use dev tool for creating smart contracts',
+      name: 'Hardhat',
+      logo: 'https://assets-global.website-files.com/6364e65656ab107e465325d2/6381641b6a60932fb3c3c2d9_crsLQ2lVok-0X37hZ_7RSl62vTm5GRP0Ws4xyPt4E5I.jpeg',
+      description: "Hardhat is a development environment for Ethereum software. It consists of different components for editing, compiling, debugging and deploying your smart contracts and dApps, all of which work together to create a complete development environment.",
       chains: ['Ethereum'],
-      site: 'https://devtool2.com',
-      affiliateLink: 'https://devtool2.com?affiliate_id=12345'
+      site: 'https://hardhat.org/',
+      affiliateLink: 'https://hardhat.org/?affiliate_id=12345'
     },
     {
       name: 'Dev Tool 3',
