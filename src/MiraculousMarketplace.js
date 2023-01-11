@@ -61,6 +61,22 @@ function MiraculousMarketplace() {
       site: 'https://moralis.io/',
       affiliateLink: 'https://moralis.io/'
     },
+    {
+      name: 'Pinata',
+      logo: 'https://assets-global.website-files.com/6364e65656ab107e465325d2/638163058f83e80fddd456fd_GhHIrktYWy4C569gdE4RMDVJcKsA_1oZH565xYA_3Bc.png',
+      description: "With over 200 server locations around the world, Pinata's built-in CDN (content delivery network) lets you serve content in less time than it takes to load a YouTube video.",
+      chains: ['Ethereum', 'Solana', 'Avalanche', 'Polygon'],
+      site: 'https://pinata.cloud/',
+      affiliateLink: 'https://pinata.cloud/'
+    },
+    {
+      name: 'QuickNode',
+      logo: 'https://assets-global.website-files.com/6364e65656ab107e465325d2/637af440040cbf0511a40557_O0_Fk-BgYBomkGecFkR1axqZ0e7h9yoUMnImzFmDyps.png',
+      description: "QuickNode makes it simple to power your blockchain applications and scale up as you grow. From elastic APIs, to powerful tools & analytics, all at your command through a simple control panel.",
+      chains: ['Ethereum', 'Solana', 'Arbitrum', 'Optimism', 'Polygon'],
+      site: 'https://www.quicknode.com/',
+      affiliateLink: 'https://www.quicknode.com/'
+    },
   ]);
   const [selectedChain, setSelectedChain] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
