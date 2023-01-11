@@ -42,10 +42,15 @@ function MiraculousMarketplace() {
     },
   ]);
   const [selectedChain, setSelectedChain] = useState('');
+  const [searchQuery, setSearchQuery] = useState('');
   const chainOptions = ['All', ...new Set(devTools.flatMap(devTool => devTool.chains))];
 
   const handleChainChange = event => {
     setSelectedChain(event.target.value);
+  };
+
+  const handleSearch = event => {
+    setSearchQuery(event.target.value);
   };
 
   const filteredDevTools = selectedChain === 'All'
@@ -53,13 +58,13 @@ function MiraculousMarketplace() {
     : devTools.filter(devTool => devTool.chains.includes(selectedChain));
     return (
       <div>
-        <header className="marketplace-header">
-          <h1>Miraculous Marketplace</h1>
-          <form>
-            <input type="text" placeholder="Search..." />
-            <button type="submit">Go</button>
-          </form>
-        </header>
+      <header className="marketplace-header">
+        <h1>Miraculous Marketplace</h1>
+        <form>
+          <input type="text" placeholder="Search..." onChange={handleSearch}/>
+          <button type="submit">Go</button>
+        </form>
+      </header>
         <div className="chain-selector">
           <label htmlFor="chain-select">Chain:</label>
           <select id="chain-select" value={selectedChain} onChange={handleChainChange}>
