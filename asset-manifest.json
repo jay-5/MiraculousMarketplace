@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MiraculousMarketplace/static/css/main.a59dafe7.css",
-    "main.js": "/MiraculousMarketplace/static/js/main.619e8047.js",
+    "main.css": "/MiraculousMarketplace/static/css/main.f98df188.css",
+    "main.js": "/MiraculousMarketplace/static/js/main.d1247552.js",
     "static/js/787.3c302528.chunk.js": "/MiraculousMarketplace/static/js/787.3c302528.chunk.js",
     "index.html": "/MiraculousMarketplace/index.html",
-    "main.a59dafe7.css.map": "/MiraculousMarketplace/static/css/main.a59dafe7.css.map",
-    "main.619e8047.js.map": "/MiraculousMarketplace/static/js/main.619e8047.js.map",
+    "main.f98df188.css.map": "/MiraculousMarketplace/static/css/main.f98df188.css.map",
+    "main.d1247552.js.map": "/MiraculousMarketplace/static/js/main.d1247552.js.map",
     "787.3c302528.chunk.js.map": "/MiraculousMarketplace/static/js/787.3c302528.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a59dafe7.css",
-    "static/js/main.619e8047.js"
+    "static/css/main.f98df188.css",
+    "static/js/main.d1247552.js"
   ]
 }
