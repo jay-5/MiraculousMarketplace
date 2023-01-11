@@ -17,12 +17,12 @@ function DevToolSquare(props) {
 function MiraculousMarketplace() {
   const [devTools] = useState([
     {
-      name: 'Dev Tool 1',
-      logo: '/path/to/devtool1-logo.png',
-      description: 'A powerful dev tool for building DApps',
-      chains: ['Ethereum', 'EOS'],
-      site: 'https://devtool1.com',
-      affiliateLink: 'https://devtool1.com?affiliate_id=12345'
+      name: 'The Graph',
+      logo: 'https://assets-global.website-files.com/6364e65656ab107e465325d2/637e69ad01e933f218693bf5_R4mv2md-MnCehqGhYgTFcu3TsE-lzwlBHhMnb7MUdQY.jpeg',
+      description: "The Graph is a decentralized protocol for indexing and querying data from blockchains, starting with Ethereum. It makes it possible to query data that is difficult to query directly.",
+      chains: ['Ethereum'],
+      site: 'https://thegraph.com/en/',
+      affiliateLink: 'https://thegraph.com/en/affiliate_id=12345'
     },
     {
       name: 'Dev Tool 2',
