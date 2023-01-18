@@ -8,8 +8,9 @@ function DevToolSquare(props) {
       <img src={logo} alt={name} className="dev-tool-logo" />
       <h3>{name}</h3>  
       <p>{description}</p>
+      <div style={{height: "20px"}} />
       <p>
-      <strong>{category}</strong> 
+        <strong>{category}</strong> 
       </p>
       <div style={{height: "20px"}} />
       <p>
