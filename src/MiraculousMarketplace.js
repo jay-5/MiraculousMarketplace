@@ -116,7 +116,7 @@ function MiraculousMarketplace() {
     return (
       <div>
       <header className="marketplace-header">
-        <h1>Miraculous Marketplace ✨</h1>
+        <h1>Miraculous Aggreagtor ✨</h1>
         <form>
           <input type="text" placeholder="Search..." onChange={handleSearch}/>
           <button type="submit">Go</button>
